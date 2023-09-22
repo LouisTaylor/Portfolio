@@ -25,12 +25,13 @@ h1 {
 }
 
 .contact {
-    background-color: white;
+    /* background-color: white; */
     border-radius: 20px;
     padding: 0px 20px 0px 20px;
-    margin-top: 40px;
     width: fit-content;
-    margin-left: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .header {
@@ -39,14 +40,54 @@ h1 {
     margin-bottom: 40px;
 }
 
+.headshot {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 25%;
+    padding: 5px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.clink {
+    background-color: white;
+    margin-left: 20px;
+    max-height: 40px;
+    padding:20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 nav ul li {
     list-style-type: none;
-    display: inline;
     text-align: center;
     background-color: lightcoral;
     padding: 20px;
-    margin-bottom: 40px;
     border: 5px solid black;
+    margin: 10px;
+    display: flex;   
+}
+
+.photo {
+    display: 33.33%;
+    padding: 5px;
+}
+
+.plinks {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.ph {
+    padding: 20px;
 }
 
 .projects {
@@ -57,7 +98,7 @@ nav ul li {
     margin: auto;
     border: 5px solid black;
     border-radius:20px;
-    margin-bottom: 40px;
+    /* margin-bottom: 20px; */
     font-size: medium;
 }
 
@@ -110,10 +151,10 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
-    nav ul li {
-        display: block;
-        margin: auto;
-        width: fit-content;
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -123,4 +164,16 @@ footer {
     }
 }
 
+@media screen and (max-width: 720px) {
+    .ph {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
+@media screen and (max-width: 720px) {
+    .background {
+        background-image: none;
+        background-color: lightblue;
+    }
+}
