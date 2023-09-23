@@ -28,9 +28,9 @@ The photo of the White Cat and of the Yellow Belly Sapsucker were taken by mysel
 
 https://louistaylor.github.io/portfolio
 
-![First picture of the top of half of my portfolio](./images/QuickPick1.jpg)
+![First picture of the top of half of my portfolio](/images/QuickPick1.jpg)
 
-![Second picture of the bottom half of my portfolio](./images/QuickPick2.jpg)
+![Second picture of the bottom half of my portfolio](/images/QuickPick2.jpg)
 
 
 ## License
