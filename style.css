@@ -2,6 +2,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Affects the header of the page */
 h1 {
     text-align: center;
     background-color: lightgrey;
@@ -16,6 +17,7 @@ h1 {
 
 }
 
+/* Background image and effects */
 .background {
     background-image: url(./Images/Forest\ Photo);
     /* <!-- The picture is freely sourced from https://unsplash.com/s/photos/forest which was taken by Lukasz Szmigiel--> */
@@ -24,8 +26,8 @@ h1 {
     flex-direction: column;
 }
 
+/* Contact information */
 .contact {
-    /* background-color: white; */
     border-radius: 20px;
     padding: 0px 20px 0px 20px;
     width: fit-content;
@@ -57,8 +59,10 @@ h1 {
     padding:20px;
     border-radius: 20px;
     margin: 10px;
+    font-size: small;
 }
 
+/* Navigation of Portfolio */
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -75,10 +79,7 @@ nav ul li {
     display: flex;   
 }
 
-.photo {
-    display: 33.33%;
-    padding: 5px;
-}
+/* Photo links to Projects */
 
 .plinks {
     display: flex;
@@ -86,8 +87,9 @@ nav ul li {
     margin: 0px;
 }
 
-.ph {
-    padding: 20px;
+a {
+    margin-right: 30px;
+    ;
 }
 
 .projects {
@@ -107,6 +109,7 @@ nav {
     margin: auto;
 }
 
+/* Biography Section with Educational and Work Experience */
 article {
     font-family: 'Times New Roman', Times, serif;
     flex-wrap: wrap;
@@ -121,6 +124,7 @@ article {
     width: 500px;
     padding: 20px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .education {
@@ -144,12 +148,14 @@ article {
     border-radius: 20px;
 }
 
+/* Footer */
 footer {
     background-color: lightgray;
     text-align: center;
     margin-top: auto;
 }
 
+/* Media Query for page break sizes */
 @media screen and (max-width: 720px) {
     nav ul {
         display: flex;
